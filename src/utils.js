@@ -1,4 +1,4 @@
-export function binarySearch(arr, cmp) {
+export default function binarySearch(arr, cmp) {
   let min = 0;
   let max = arr.length - 1;
   while (min <= max) {
